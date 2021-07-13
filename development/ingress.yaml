@@ -4,7 +4,7 @@ metadata:
   name: gitops-demo-ingress-dev
 spec:
   rules:
-  - host: gitops-dev.demo.info
+  - host: gitops-dev.demo.local
     http:
       paths:
       - path: /
